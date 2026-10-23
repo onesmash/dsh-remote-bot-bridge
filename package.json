@@ -1,7 +1,7 @@
 {
   "name": "dsh-remote-bot-bridge",
-  "version": "0.1.0",
-  "description": "Bot-to-bot messaging across machines over ds-harness-remote: lets a local Bot send messages to a Bot on a remote Host.",
+  "version": "0.1.1",
+  "description": "Bot-to-bot messaging across machines over ds-harness-remote: lets a local Bot send messages to a Bot on a remote Host, without switching the local window.",
   "type": "module",
   "main": "index.js",
   "exports": {
@@ -20,9 +20,18 @@
     "ds-harness-remote",
     "ds-bot",
     "bot",
-    "plugin"
+    "plugin",
+    "remote"
   ],
   "author": "hui.xu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onesmash/dsh-remote-bot-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onesmash/dsh-remote-bot-bridge/issues"
+  },
+  "homepage": "https://github.com/onesmash/dsh-remote-bot-bridge#readme",
   "peerDependencies": {
     "@deepseek-ai/cordis": "*",
     "@deepseek-ai/dsh-tools": "*"
