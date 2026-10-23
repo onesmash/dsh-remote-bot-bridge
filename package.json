@@ -1,6 +1,6 @@
 {
   "name": "dsh-remote-bot-bridge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bot-to-bot messaging across machines over ds-harness-remote: lets a local Bot send messages to a Bot on a remote Host, without switching the local window.",
   "type": "module",
   "main": "index.js",
