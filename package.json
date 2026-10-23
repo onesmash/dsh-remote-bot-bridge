@@ -1,0 +1,36 @@
+{
+  "name": "dsh-remote-bot-bridge",
+  "version": "0.1.0",
+  "description": "Bot-to-bot messaging across machines over ds-harness-remote: lets a local Bot send messages to a Bot on a remote Host.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "ds-harness-remote",
+    "ds-bot",
+    "bot",
+    "plugin"
+  ],
+  "author": "hui.xu",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}

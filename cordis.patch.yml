@@ -1,0 +1,4 @@
+- insert:
+    - id: remote-bot-bridge
+      name: 'dsh-remote-bot-bridge'
+      config: {}
